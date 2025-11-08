@@ -10,7 +10,7 @@ export default defineConfig({
             include: '**/*.svg?react',
         })
     ],
-    base: "/git branch -M main/",
+    base: "/dictionary-web-app/",
     optimizeDeps: {
         esbuildOptions: { target: 'es2020' }
     },
