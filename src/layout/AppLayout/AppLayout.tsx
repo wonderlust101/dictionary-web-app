@@ -4,13 +4,13 @@ import styles from "./AppLayout.module.css";
 
 function AppLayout() {
     return (
-        <main className={`${styles.appLayout} grid-bleed`}>
+        <div className={`${styles.appLayout} grid-bleed`}>
             <Header/>
 
             <main className={styles.mainLayout}>
                 <Outlet/>
             </main>
-        </main>
+        </div>
     );
 }
 

@@ -6,7 +6,7 @@ import FontDropdown from "@/components/FontDropdown/FontDropdown.tsx";
 function Header() {
     return (
         <header className={styles.header}>
-            <Logo/>
+            <h1><Logo/><span className="sr-only">Dictionary</span></h1>
 
             <div className={styles.headerSettings}>
                 <FontDropdown/>

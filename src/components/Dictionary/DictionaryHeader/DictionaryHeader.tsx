@@ -19,7 +19,7 @@ function DictionaryHeader({word, phonetic, phoneticAudio}: DictionaryHeaderProps
                 className={styles.playButton}
                 onClick={() => new Audio(phoneticAudio).play()}
             >
-                <PlayIcon className={styles.playButton} />
+                <p><PlayIcon className={styles.playButton} /></p>
             </button>
         </div>
     );
