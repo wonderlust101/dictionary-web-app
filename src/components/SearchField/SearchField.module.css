@@ -1,0 +1,43 @@
+.searchFieldContainer {
+    position : relative;
+}
+
+.searchField {
+    width            : 100%;
+    padding          : 1.25rem 1.5rem;
+    border-radius    : 1rem;
+    font-size        : 1.25rem;
+    font-weight      : 700;
+    background-color : var(--container-color);
+    border           : 1px solid transparent;
+    outline          : none;
+    position         : relative;
+}
+
+.searchField:focus,
+.searchField:active {
+    border : 1px solid var(--color-purple-500);
+}
+
+.searchFieldError:focus,
+.searchFieldError:active{
+    border : 1px solid var(--color-red-500);
+}
+
+.searchField::placeholder {
+    opacity : 0.25;
+}
+
+.icon {
+    position : absolute;
+    right    : 1.5rem;
+    top      : 50%;
+    transform: translateY(-50%);
+}
+
+.errorMessage {
+    position : absolute;
+    left: 0;
+    top: calc(100% + 0.5rem);
+    color: var(--color-red-500);
+}

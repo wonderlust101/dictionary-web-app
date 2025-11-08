@@ -1,0 +1,31 @@
+.themeSwitch {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.switchTrack {
+    position: relative;
+    height: 1.25rem;
+    width: 2.5rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: var(--switch-background-color);
+    cursor: pointer;
+}
+
+.switchThumb {
+    position: absolute;
+    left: 0.25rem;
+    top: 50%;
+    height: 0.875rem;
+    width: 0.875rem;
+    border-radius: 50rem;
+    background-color: var(--color-neutral-0);
+    transform: translateY(-50%);
+    transition: left 0.15s ease-in-out;
+}
+
+.switchTrack[aria-checked="true"] .switchThumb {
+    left: calc(100% - 0.875rem - 0.25rem);
+}

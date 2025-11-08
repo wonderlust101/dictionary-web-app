@@ -1,0 +1,136 @@
+/* Sans Serif */
+@font-face {
+    font-family : "Inter";
+    src         : url("./fonts/inter/Inter-VariableFont_slnt,wght.ttf");
+}
+
+/* Serif */
+@font-face {
+    font-family : "Lora";
+    src         : url("./fonts/lora/Lora-VariableFont_wght.ttf");
+}
+
+/* Mono */
+@font-face {
+    font-family : "Aliquam Mono";
+    src         : url("./fonts/inconsolata/Inconsolata-VariableFont_wdth,wght.ttf");
+}
+
+/* Global Styles */
+* {
+    font-family : var(--font, "Inter"), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input {
+    color : var(--text-color);
+}
+
+li {
+    list-style : none;
+}
+
+a {
+    text-decoration : none;
+}
+
+/* Heading */
+.heading-lg {
+    font-size      : 4rem;
+    font-weight    : 700;
+    line-height    : 1.2;
+    letter-spacing : -0.02em;
+}
+
+.heading-md {
+    font-size      : 1.5rem;
+    font-weight    : 600;
+    line-height    : 1.2;
+    letter-spacing : -0.01em;
+}
+
+.heading-sm {
+    font-size      : 1.25rem;
+    font-weight    : 600;
+    line-height    : 1.2;
+    letter-spacing : -0.01em;
+
+}
+
+/* Body */
+.body-md {
+    font-size      : 1.125rem;
+    font-weight    : 400;
+    line-height    : 1.33;
+    letter-spacing : 0;
+}
+
+.body-sm {
+    font-size      : 0.875rem;
+    font-weight    : 400;
+    line-height    : 1.2;
+    letter-spacing : 0;
+}
+
+/*Font Weight*/
+.bold {
+    font-weight : 700;
+}
+
+.semi-bold {
+    font-weight : 600;
+}
+
+.medium {
+    font-weight : 500;
+}
+
+.normal {
+    font-weight : 400;
+}
+
+.light {
+    font-weight : 300;
+}
+
+/*Font Style*/
+.italic {
+    font-style : italic;
+}
+
+.normal {
+    font-style : normal;
+}
+
+/*Text Alignment*/
+.text-left {
+    text-align : left;
+}
+
+.text-center {
+    text-align : center;
+}
+
+.text-right {
+    text-align : right;
+}
+
+/*Text Transformation*/
+.uppercase {
+    text-transform : uppercase;
+}
+
+.lowercase {
+    text-transform : lowercase;
+}
+
+.capitalize {
+    text-transform : capitalize;
+}

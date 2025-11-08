@@ -1,0 +1,43 @@
+.dropdown {
+    position: relative;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hoverMenu {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 1rem);
+    padding: 1.5rem;
+    background-color: var(--background-color);
+    box-shadow: var(--container-box-shadow);
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.fontList {
+    display: grid;
+    gap: 1rem;
+}
+
+.fontButton {
+    background-color: transparent;
+    border: none;
+}
+
+.font {
+    white-space: nowrap;
+    margin-right: 3.5rem;
+    cursor: pointer;
+}
+
+.font:hover {
+    color: var(--color-purple-500);
+}

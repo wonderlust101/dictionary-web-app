@@ -1,0 +1,46 @@
+:root {
+    /* Neutrals */
+    --color-neutral-900: #050505;
+    --color-neutral-800: #1F1F1F;
+    --color-neutral-700: #2D2D2D;
+    --color-neutral-600: #3A3A3A;
+    --color-neutral-400: #757575;
+    --color-neutral-200: #E9E9E9;
+    --color-neutral-100: #F4F4F4;
+    --color-neutral-0:  #FFFFFF;
+
+    /* Accents */
+    --color-purple-500: #A445ED;
+    --color-red-500:    #FF5252;
+
+    /* Theme Colors*/
+    --text-color: var(--color-neutral-900);
+    --background-color: var(--color-neutral-0);
+    --container-color: var(--color-neutral-100);
+    --container-box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.10);
+
+    /* Theme Switch*/
+    --switch-background-color: var(--color-neutral-400);
+}
+
+html.dark {
+    --text-color: var(--color-neutral-0);
+    --background-color: var(--color-neutral-900);
+    --container-color: var(--color-neutral-800);
+    --container-box-shadow: 0 5px 30px 0 #A445ED;
+
+    /* Theme Switch*/
+    --switch-background-color: var(--color-purple-500);
+}
+
+html[data-font="sans serif"] {
+    --font: 'Inter', sans-serif;
+}
+
+html[data-font="serif"] {
+    --font: 'Lora', serif;
+}
+
+html[data-font="mono"] {
+    --font: 'Aliquam Mono', monospace;
+}

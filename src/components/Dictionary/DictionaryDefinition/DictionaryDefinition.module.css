@@ -1,0 +1,61 @@
+.definition {
+    display: grid;
+    gap: 2.5rem;
+}
+
+.definition h4 {
+    color: var(--color-neutral-400);
+}
+
+.definitionHeader {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-style: italic;
+}
+
+.definitionHeader hr {
+    width: 100%;
+    color: var(--color-neutral-200);
+}
+
+/* Meaning */
+
+.meaning {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.meaningList {
+    display: grid;
+    gap: 0.75rem;
+    margin-left: 3rem;
+}
+
+.meaningListItem {
+    list-style: disc;
+    color: var(--color-purple-500);
+}
+
+.exampleSentence {
+    margin-top: 0.75rem;
+    color: var(--color-neutral-400);
+}
+
+/* Synonyms */
+
+.synonyms {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.synonymsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.synonymsListItems {
+    color: var(--color-purple-500);
+}

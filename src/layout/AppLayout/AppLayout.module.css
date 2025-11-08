@@ -1,0 +1,13 @@
+.appLayout {
+    display: grid;
+    row-gap: 3.25rem;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+.mainLayout {
+    display: grid;
+    align-content: flex-start;
+    gap: 3.25rem;
+}

@@ -1,0 +1,30 @@
+.dictionaryHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dictionaryHeader p {
+    margin-top: 0.5rem;
+    color: var(--color-purple-500);
+}
+
+.playButton {
+    color: var(--color-purple-500);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.playButton svg,
+.playButton circle{
+    transition: all 0.15s ease-in-out;
+}
+
+.playButton:hover svg{
+    color: var(--color-neutral-0);
+}
+
+.playButton:hover circle{
+    opacity: 1;
+}

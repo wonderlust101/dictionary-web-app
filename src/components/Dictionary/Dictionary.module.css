@@ -1,0 +1,27 @@
+.dictionary {
+    display: grid;
+    gap: 2.5rem;
+}
+
+.dictionary hr {
+    width: 100%;
+    color: var(--color-neutral-200);
+}
+
+.source {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 1.5rem 0 3.75rem;
+    text-decoration: underline 1px var(--color-neutral-400);
+}
+
+.source h3 {
+    color: var(--color-neutral-400);
+}
+
+.source a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
